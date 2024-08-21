@@ -1,0 +1,37 @@
+name: organizaplusx
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.5
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.0.11
+  flutter_local_notifications: ^13.0.0
+  intl: ^0.19.0
+  logger: ^1.1.0
+  table_calendar: ^3.0.8
+  flutter_localizations:
+    sdk: flutter
+  flutter_appauth: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator: ^1.1.3
+  build_runner: ^2.3.3
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - lib/assets/login_image.jpg
